@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Success</title>
+</head>
+<body>
+    <h1>Login Success</h1>
+    <h3>Admin Statistics</h3>
+    <form action="/check_authentication" method="GET" id="statistics">
+        <input type="hidden" name="action" value="statistics">
+        <input type="submit" value="See Statistics">
+    </form>
+    <h3>Train Model</h3>
+    <form action="/check_authentication" method="GET">
+        <input type="hidden" name="action" value="train">
+        <input type="submit" value="Train Model">
+    </form>
+</body>
+</html>

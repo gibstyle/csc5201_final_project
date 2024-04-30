@@ -6,3 +6,8 @@ services:
     ports:
       - "8000:8080"
   
+  review_predictions_service:
+    build: ./review_predictions_service
+    ports:
+      - "8001:8080"
+  

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Rating</title>
+</head>
+<body>
+    <h1>Your Predicted Review Rating</h1>
+    <p>Based on your review of a restaurant, the predicted rating of it is <b>{{data['Rating']}}</b>!</p>
+    <form action="/" method="GET">
+        <input type="submit" value="Back to Home">
+    </form>   
+    <br>
+    <form action="/predict_review" method="GET">
+        <input type="submit" value="Back to Predict Review">
+    </form>  
+</body>
+</html>
