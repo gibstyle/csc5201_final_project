@@ -1,21 +1,29 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, session, redirect, url_for
+from functools import wraps
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token
 import requests
 from models import Schema
 from services import ReviewPredictionService
 import time
+import logging
 
+
+logging.basicConfig(filename='logs/all_logs.log', level=logging.DEBUG,
+                    format='%(asctime)s:%(levelname)s:%(message)s', force=True)
 
 app = Flask(__name__)
 
 # setting up access token as some endpoints can only be accessed by authroized users
-app.config['JWT_SECRET_KEY'] = 'secret'
-jwt = JWTManager(app)
+# Set secret key
+app.secret_key = 'super-secret-key'
 
 HEADERS = {'Content-Type': "application/json"}
-users = {'master': 'password000'}
 
-RESTAURANT_REVIEW_SERVICE_URL = "http://127.0.0.1:8080"
+RESTAURANT_REVIEW_SERVICE_URL = "http://restaurant_review_service:8080" 
+# RESTAURANT_REVIEW_SERVICE_URL = "http://127.0.0.1:8080"
+
+REVIEW_PREDICTION_SERVICE_URL = "http://review_predictions_service:8081"  
+# REVIEW_PREDICTION_SERVICE_URL = "http://127.0.0.1:8081"
 RPS = ReviewPredictionService()
 
 
@@ -28,11 +36,22 @@ def add_headers(response):
     return response
 
 
+def admin_required(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        if session.get('is_admin'):
+            return func(*args, **kwargs)
+        else:
+            return redirect(url_for('login'))  # Redirect to login page if not admin
+    return wrapper
+
+
 ###################################################################################################
 # Home
 ###################################################################################################
 @app.route("/")
 def main_page():
+    session['is_admin'] = False
     ReviewPredictionService().create_statistic({"Endpoint": "/", "Method": "GET", "CreatedOn": time.time()})   
     return render_template('home.html')
 
@@ -61,11 +80,13 @@ def list_restaurants():
 # Machine Learning Training and Prediction
 ###################################################################################################
 @app.route("/train_model", methods=["GET"])
-@jwt_required()
+@admin_required
 def train_model():
     ReviewPredictionService().create_statistic({"Endpoint": "/train_model", "Method": "GET", "CreatedOn": time.time()})
     response = requests.get(f'{RESTAURANT_REVIEW_SERVICE_URL}/training_data')
-    return RPS.train_model(response.json())
+    response = RPS.train_model(response.json())
+    return render_template('training_results.html', data=response)
+
 
 
 @app.route("/predict_review", methods=["GET"])
@@ -79,7 +100,7 @@ def review_result():
     ReviewPredictionService().create_statistic({"Endpoint": "/review_result", "Method": "GET", "CreatedOn": time.time()}) 
     review = request.form['review']
     result = RPS.predict_review(review)
-    print(result)
+    logging.info(f'Review: review={review}, result={result}')
     if 'Error' in result:
         return render_template('home.html')
     else:
@@ -95,39 +116,32 @@ def login():
     return render_template('login.html')
 
 
-@app.route("/after_login", methods=["POST"])
+@app.route("/login_submitted", methods=["POST"])
 def after_login():
     ReviewPredictionService().create_statistic({"Endpoint": "/after_login", "Method": "POST", "CreatedOn": time.time()}) 
     username = request.form['username']
     password = request.form['password']
+    logging.info(f'Login: username={username}, password={password}')
     
-    if username in users and users[username] == password:
-        access_token = create_access_token(identity=username)
-        HEADERS["Authorization"] = f'Bearer {access_token}'
+    result = ReviewPredictionService().admin_model.check_admin(username, password)
+    if len(result) > 0:
+        session['is_admin'] = True
         return render_template('login_success.html')
     else:
+        session['is_admin'] = False
         return render_template('login_fail.html')
 
 
 ###################################################################################################
 # Administrative
 ###################################################################################################
-@app.route("/check_authentication", methods=["GET"])
-def check_authentication():
-    action = request.args.get('action')
-    if action == 'statistics':
-        response = requests.get('http://127.0.0.1:5001/statistics', headers=HEADERS)
-        return render_template('statistics.html', data=response.json())
-    else:
-        response = requests.get('http://127.0.0.1:5001/train_model', headers=HEADERS)
-        return render_template('training_results.html', data=response.json())
-
-
 @app.route("/statistics", methods=["GET"])
-@jwt_required()
+@admin_required
 def get_statistics():
     ReviewPredictionService().create_statistic({"Endpoint": "/statistics", "Method": "GET", "CreatedOn": time.time()}) 
-    return ReviewPredictionService().get_statistics()
+    response = ReviewPredictionService().get_statistics()
+    return render_template('statistics.html', data=response)
+
 
 
 ###################################################################################################
@@ -136,4 +150,4 @@ def get_statistics():
 if __name__ == "__main__":
     Schema()
     RPS.load_model()
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=8081)

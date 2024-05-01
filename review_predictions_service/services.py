@@ -1,5 +1,5 @@
 import pickle
-from models import StatisticsTable, ReviewPredictionModel
+from models import StatisticsTable, ReviewPredictionModel, AdminTable
 
 
 class ReviewPredictionService:
@@ -7,6 +7,7 @@ class ReviewPredictionService:
         self.review_prediction_model = ReviewPredictionModel()
         self.models_dir = 'models'
         self.statistics_model = StatisticsTable()
+        self.admin_model = AdminTable()
 
 
     def train_model(self, data):
@@ -49,4 +50,11 @@ class ReviewPredictionService:
         Get the usage statistics for each endpoint.
         """
         return self.statistics_model.list_statistics()
+    
+
+    def check_admin(self, username, password):
+        """
+        Check if user is an admin.
+        """
+        return self.admin_model.check_admin(username, password)
     

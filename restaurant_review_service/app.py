@@ -12,6 +12,11 @@ def add_headers(response):
     return response
 
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Welcome to the Restaurant Review API"
+
+
 ###################################################################################################
 # Reviews
 ###################################################################################################

@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # port number container should expose
-EXPOSE 8080
+EXPOSE 8081
 
 # run the commands
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app", "--timeout", "600"]  
+CMD ["gunicorn", "-b", "0.0.0.0:8081", "app:app", "--timeout", "600"]  

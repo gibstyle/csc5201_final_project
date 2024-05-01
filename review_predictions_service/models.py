@@ -14,6 +14,8 @@ class Schema:
     def __init__(self):
         self.conn = sqlite3.connect(database_path)
         self.create_statistics_table()
+        self.create_admin_table()
+        self.add_admin()
 
 
     def __del__(self):
@@ -31,6 +33,25 @@ class Schema:
         );
         """
         self.conn.execute(query)
+
+
+    def create_admin_table(self):
+        query = """
+        CREATE TABLE IF NOT EXISTS "Admin" (
+          admin_id INT PRIMARY KEY,
+          username VARCHAR(255),
+          password VARCHAR(255)
+        );
+        """
+        self.conn.execute(query)
+
+    
+    def add_admin(self):
+        check_query = f'SELECT username, password FROM Admin WHERE username="master" AND password="password123"'
+        result = self.conn.execute(check_query).fetchone()
+        if result is None:  # If the username doesn't exist, insert the new admin
+            query = f'INSERT INTO Admin (username, password) VALUES ("master", "password123")'
+            self.conn.execute(query)
 
 
 class StatisticsTable:
@@ -129,3 +150,31 @@ class ReviewPredictionModel:
             ret = 'Good'
         return {'Rating': ret}
     
+
+class AdminTable:
+    TABLENAME = "Admin"
+
+    def __init__(self):
+        self.conn = sqlite3.connect(database_path)
+        self.conn.row_factory = sqlite3.Row
+
+
+    def __del__(self):
+        self.conn.commit()
+        self.conn.close()
+
+    
+    def create(self, params):
+        query = f'insert into {self.TABLENAME} ' \
+                f'(Endpoint, Method, CreatedOn) ' \
+                f'values ("{params.get("Endpoint")}","{params.get("Method")}","{params.get("CreatedOn")}")'
+        self.conn.execute(query)
+    
+
+    def check_admin(self, username, password):
+        query = f'SELECT username, password FROM {self.TABLENAME} WHERE username="{username}" and password="{password}"'
+        result_set = self.conn.execute(query).fetchall()
+        result = [{column: row[i]
+                  for i, column in enumerate(result_set[0].keys())}
+                  for row in result_set]
+        return result

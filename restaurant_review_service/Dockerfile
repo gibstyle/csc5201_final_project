@@ -15,3 +15,4 @@ EXPOSE 8080
 
 # run the commands
 CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app", "--timeout", "600"]  
+# CMD ["python", "app.py"]

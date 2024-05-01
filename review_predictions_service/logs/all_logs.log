@@ -1,0 +1,603 @@
+2024-05-01 06:58:13,436:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 06:58:13,436:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 06:58:13,437:INFO: * Restarting with stat
+2024-05-01 06:58:14,438:WARNING: * Debugger is active!
+2024-05-01 06:58:14,439:INFO: * Debugger PIN: 946-908-376
+2024-05-01 06:58:20,606:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 06:58:20,606:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 06:58:20,606:INFO: * Restarting with stat
+2024-05-01 06:58:21,642:WARNING: * Debugger is active!
+2024-05-01 06:58:21,643:INFO: * Debugger PIN: 946-908-376
+2024-05-01 06:58:34,176:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.25.205.124:5001
+2024-05-01 06:58:34,177:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 06:58:34,178:INFO: * Restarting with stat
+2024-05-01 06:58:35,445:WARNING: * Debugger is active!
+2024-05-01 06:58:35,445:INFO: * Debugger PIN: 946-908-376
+2024-05-01 06:58:49,129:INFO:127.0.0.1 - - [01/May/2024 06:58:49] "GET / HTTP/1.1" 200 -
+2024-05-01 06:58:49,680:INFO:127.0.0.1 - - [01/May/2024 06:58:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 06:58:52,523:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 06:58:52,530:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 06:58:52,535:INFO:127.0.0.1 - - [01/May/2024 06:58:52] "GET /review HTTP/1.1" 200 -
+2024-05-01 06:59:07,449:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 06:59:07,464:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 06:59:07,468:INFO:127.0.0.1 - - [01/May/2024 06:59:07] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 06:59:11,224:INFO:127.0.0.1 - - [01/May/2024 06:59:11] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 06:59:13,795:INFO:Review: review=review, result={'Rating': 'Good'}
+2024-05-01 06:59:13,797:INFO:127.0.0.1 - - [01/May/2024 06:59:13] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 08:15:31,778:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 08:15:31,780:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 08:15:31,781:INFO: * Restarting with stat
+2024-05-01 08:15:32,901:WARNING: * Debugger is active!
+2024-05-01 08:15:32,901:INFO: * Debugger PIN: 946-908-376
+2024-05-01 08:34:23,461:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 08:34:23,463:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 08:34:23,465:INFO: * Restarting with stat
+2024-05-01 08:34:24,777:WARNING: * Debugger is active!
+2024-05-01 08:34:24,778:INFO: * Debugger PIN: 946-908-376
+2024-05-01 08:34:27,846:INFO:127.0.0.1 - - [01/May/2024 08:34:27] "GET / HTTP/1.1" 200 -
+2024-05-01 08:34:28,028:INFO:127.0.0.1 - - [01/May/2024 08:34:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 08:34:29,342:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 08:34:29,347:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 08:34:29,355:INFO:127.0.0.1 - - [01/May/2024 08:34:29] "GET /review HTTP/1.1" 200 -
+2024-05-01 08:34:32,035:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 08:34:32,078:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 08:34:32,081:INFO:127.0.0.1 - - [01/May/2024 08:34:32] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 08:34:35,239:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 08:34:35,243:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 08:34:35,244:INFO:127.0.0.1 - - [01/May/2024 08:34:35] "GET /review HTTP/1.1" 200 -
+2024-05-01 08:37:50,355:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 08:37:50,355:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 08:37:50,356:INFO: * Restarting with stat
+2024-05-01 08:37:51,279:WARNING: * Debugger is active!
+2024-05-01 08:37:51,280:INFO: * Debugger PIN: 946-908-376
+2024-05-01 15:46:30,318:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 15:46:30,319:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 15:46:30,320:INFO: * Restarting with stat
+2024-05-01 15:46:32,344:WARNING: * Debugger is active!
+2024-05-01 15:46:32,344:INFO: * Debugger PIN: 946-908-376
+2024-05-01 15:46:34,571:INFO:127.0.0.1 - - [01/May/2024 15:46:34] "GET / HTTP/1.1" 200 -
+2024-05-01 15:46:35,803:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:46:35,807:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 15:46:35,812:INFO:127.0.0.1 - - [01/May/2024 15:46:35] "GET /review HTTP/1.1" 200 -
+2024-05-01 15:46:37,343:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:46:37,391:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 15:46:37,393:INFO:127.0.0.1 - - [01/May/2024 15:46:37] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 15:46:45,609:INFO:127.0.0.1 - - [01/May/2024 15:46:45] "GET / HTTP/1.1" 200 -
+2024-05-01 15:46:47,413:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:46:47,416:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 15:46:47,417:INFO:127.0.0.1 - - [01/May/2024 15:46:47] "GET /review HTTP/1.1" 200 -
+2024-05-01 15:46:48,758:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:46:48,766:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 15:46:48,767:INFO:127.0.0.1 - - [01/May/2024 15:46:48] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 15:46:51,894:INFO:127.0.0.1 - - [01/May/2024 15:46:51] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 15:46:54,480:INFO:Review: review=sauce, result={'Rating': 'Good'}
+2024-05-01 15:46:54,481:INFO:127.0.0.1 - - [01/May/2024 15:46:54] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 15:46:55,726:INFO:127.0.0.1 - - [01/May/2024 15:46:55] "GET / HTTP/1.1" 200 -
+2024-05-01 15:46:56,899:INFO:127.0.0.1 - - [01/May/2024 15:46:56] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 15:46:59,365:INFO:Review: review=good, result={'Rating': 'Good'}
+2024-05-01 15:46:59,365:INFO:127.0.0.1 - - [01/May/2024 15:46:59] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 15:47:00,429:INFO:127.0.0.1 - - [01/May/2024 15:47:00] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 15:47:14,217:INFO:Review: review=I love this restaurant, result={'Rating': 'Good'}
+2024-05-01 15:47:14,217:INFO:127.0.0.1 - - [01/May/2024 15:47:14] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 15:47:15,631:INFO:127.0.0.1 - - [01/May/2024 15:47:15] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 15:47:20,307:INFO:127.0.0.1 - - [01/May/2024 15:47:20] "GET / HTTP/1.1" 200 -
+2024-05-01 15:47:21,270:INFO:127.0.0.1 - - [01/May/2024 15:47:21] "GET /login HTTP/1.1" 200 -
+2024-05-01 15:47:25,383:INFO:Login: username=master, password=password
+2024-05-01 15:47:25,385:INFO:127.0.0.1 - - [01/May/2024 15:47:25] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 15:47:26,420:INFO:127.0.0.1 - - [01/May/2024 15:47:26] "GET /login HTTP/1.1" 200 -
+2024-05-01 15:47:31,604:INFO:Login: username=master, password=password000
+2024-05-01 15:47:31,606:INFO:127.0.0.1 - - [01/May/2024 15:47:31] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 15:47:32,871:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 15:47:32,881:INFO:127.0.0.1 - - [01/May/2024 15:47:32] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 15:47:32,881:DEBUG:http://127.0.0.1:8081 "GET /statistics HTTP/1.1" 200 794
+2024-05-01 15:47:32,883:INFO:127.0.0.1 - - [01/May/2024 15:47:32] "GET /check_authentication?action=statistics HTTP/1.1" 200 -
+2024-05-01 15:47:38,975:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 15:47:38,985:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:47:39,170:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 15:48:02,078:INFO:127.0.0.1 - - [01/May/2024 15:48:02] "GET /train_model HTTP/1.1" 200 -
+2024-05-01 15:48:02,078:DEBUG:http://127.0.0.1:8081 "GET /train_model HTTP/1.1" 200 174
+2024-05-01 15:48:02,081:INFO:127.0.0.1 - - [01/May/2024 15:48:02] "GET /check_authentication?action=train HTTP/1.1" 200 -
+2024-05-01 15:56:28,225:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 15:56:28,235:INFO:127.0.0.1 - - [01/May/2024 15:56:28] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 15:56:28,236:DEBUG:http://127.0.0.1:8081 "GET /statistics HTTP/1.1" 200 794
+2024-05-01 15:56:28,237:INFO:127.0.0.1 - - [01/May/2024 15:56:28] "GET /check_authentication?action=statistics HTTP/1.1" 200 -
+2024-05-01 15:56:29,932:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 15:56:29,948:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 15:56:30,322:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 15:56:54,541:INFO:127.0.0.1 - - [01/May/2024 15:56:54] "GET /train_model HTTP/1.1" 200 -
+2024-05-01 15:56:54,541:DEBUG:http://127.0.0.1:8081 "GET /train_model HTTP/1.1" 200 176
+2024-05-01 15:56:54,542:INFO:127.0.0.1 - - [01/May/2024 15:56:54] "GET /check_authentication?action=train HTTP/1.1" 200 -
+2024-05-01 15:59:13,363:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/services.py', reloading
+2024-05-01 15:59:13,539:INFO: * Restarting with stat
+2024-05-01 16:22:19,914:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:22:19,914:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:22:19,915:INFO: * Restarting with stat
+2024-05-01 16:22:20,609:WARNING: * Debugger is active!
+2024-05-01 16:22:20,610:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:22:27,684:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/models.py', reloading
+2024-05-01 16:22:27,816:INFO: * Restarting with stat
+2024-05-01 16:22:28,495:WARNING: * Debugger is active!
+2024-05-01 16:22:28,495:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:22:35,102:INFO:127.0.0.1 - - [01/May/2024 16:22:35] "[33mGET /c HTTP/1.1[0m" 404 -
+2024-05-01 16:22:37,643:INFO:127.0.0.1 - - [01/May/2024 16:22:37] "GET / HTTP/1.1" 200 -
+2024-05-01 16:22:39,430:INFO:127.0.0.1 - - [01/May/2024 16:22:39] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:22:44,137:INFO:Login: username=master, password=password000
+2024-05-01 16:22:44,142:INFO:127.0.0.1 - - [01/May/2024 16:22:44] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:22:44,163:INFO:127.0.0.1 - - [01/May/2024 16:22:44] "GET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 16:22:44,166:INFO:127.0.0.1 - - [01/May/2024 16:22:44] "GET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 16:22:44,194:INFO:127.0.0.1 - - [01/May/2024 16:22:44] "GET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:22:44,203:INFO:127.0.0.1 - - [01/May/2024 16:22:44] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:23:12,878:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/models.py', reloading
+2024-05-01 16:23:13,012:INFO: * Restarting with stat
+2024-05-01 16:23:13,729:WARNING: * Debugger is active!
+2024-05-01 16:23:13,729:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:23:16,160:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:23:16,160:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:23:16,161:INFO: * Restarting with stat
+2024-05-01 16:23:16,895:WARNING: * Debugger is active!
+2024-05-01 16:23:16,895:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:23:21,732:INFO:Login: username=master, password=password000
+2024-05-01 16:23:21,736:INFO:127.0.0.1 - - [01/May/2024 16:23:21] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:23:21,750:INFO:127.0.0.1 - - [01/May/2024 16:23:21] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:23:21,752:INFO:127.0.0.1 - - [01/May/2024 16:23:21] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:23:21,762:INFO:127.0.0.1 - - [01/May/2024 16:23:21] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:23:21,772:INFO:127.0.0.1 - - [01/May/2024 16:23:21] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:23:34,542:INFO:Login: username=master, password=password123
+2024-05-01 16:23:34,544:INFO:127.0.0.1 - - [01/May/2024 16:23:34] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:23:34,558:INFO:127.0.0.1 - - [01/May/2024 16:23:34] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:23:34,561:INFO:127.0.0.1 - - [01/May/2024 16:23:34] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:23:34,570:INFO:127.0.0.1 - - [01/May/2024 16:23:34] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:23:34,584:INFO:127.0.0.1 - - [01/May/2024 16:23:34] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:23:50,205:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/models.py', reloading
+2024-05-01 16:23:50,333:INFO: * Restarting with stat
+2024-05-01 16:23:51,057:WARNING: * Debugger is active!
+2024-05-01 16:23:51,058:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:23:53,825:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:23:53,825:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:23:53,825:INFO: * Restarting with stat
+2024-05-01 16:23:54,551:WARNING: * Debugger is active!
+2024-05-01 16:23:54,551:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:23:59,727:INFO:127.0.0.1 - - [01/May/2024 16:23:59] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:24:05,050:INFO:Login: username=master, password=password123
+2024-05-01 16:24:05,052:INFO:127.0.0.1 - - [01/May/2024 16:24:05] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:24:05,069:INFO:127.0.0.1 - - [01/May/2024 16:24:05] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:24:05,069:INFO:127.0.0.1 - - [01/May/2024 16:24:05] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:24:05,079:INFO:127.0.0.1 - - [01/May/2024 16:24:05] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:24:05,089:INFO:127.0.0.1 - - [01/May/2024 16:24:05] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:24:36,392:INFO:Login: username=master, password=password1afadsfas23
+2024-05-01 16:24:36,394:INFO:127.0.0.1 - - [01/May/2024 16:24:36] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:24:36,409:INFO:127.0.0.1 - - [01/May/2024 16:24:36] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:24:36,410:INFO:127.0.0.1 - - [01/May/2024 16:24:36] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:24:36,420:INFO:127.0.0.1 - - [01/May/2024 16:24:36] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:24:36,427:INFO:127.0.0.1 - - [01/May/2024 16:24:36] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:24:47,020:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:24:47,150:INFO: * Restarting with stat
+2024-05-01 16:24:47,843:WARNING: * Debugger is active!
+2024-05-01 16:24:47,844:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:25:06,012:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:25:06,142:INFO: * Restarting with stat
+2024-05-01 16:25:06,878:WARNING: * Debugger is active!
+2024-05-01 16:25:06,879:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:25:08,895:INFO:Login: username=master, password=password1afadsfas23
+2024-05-01 16:25:08,897:INFO:127.0.0.1 - - [01/May/2024 16:25:08] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:25:08,915:INFO:127.0.0.1 - - [01/May/2024 16:25:08] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:25:08,917:INFO:127.0.0.1 - - [01/May/2024 16:25:08] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:25:08,926:INFO:127.0.0.1 - - [01/May/2024 16:25:08] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:25:08,937:INFO:127.0.0.1 - - [01/May/2024 16:25:08] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:25:39,157:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:25:39,280:INFO: * Restarting with stat
+2024-05-01 16:25:39,980:WARNING: * Debugger is active!
+2024-05-01 16:25:39,981:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:25:48,927:INFO:Login: username=master, password=password1afadsfas23
+2024-05-01 16:25:48,929:INFO:127.0.0.1 - - [01/May/2024 16:25:48] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:25:50,123:INFO:127.0.0.1 - - [01/May/2024 16:25:50] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:25:59,152:INFO:Login: username=master, password=password123
+2024-05-01 16:25:59,154:INFO:127.0.0.1 - - [01/May/2024 16:25:59] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:26:03,742:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 16:26:03,760:INFO:127.0.0.1 - - [01/May/2024 16:26:03] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:26:03,761:DEBUG:http://127.0.0.1:8081 "GET /statistics HTTP/1.1" 200 794
+2024-05-01 16:26:03,762:INFO:127.0.0.1 - - [01/May/2024 16:26:03] "GET /check_authentication?action=statistics HTTP/1.1" 200 -
+2024-05-01 16:37:37,690:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:37:37,838:INFO: * Restarting with stat
+2024-05-01 16:37:38,566:WARNING: * Debugger is active!
+2024-05-01 16:37:38,567:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:26,995:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:38:27,132:INFO: * Restarting with stat
+2024-05-01 16:38:27,891:WARNING: * Debugger is active!
+2024-05-01 16:38:27,891:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:28,915:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:38:29,045:INFO: * Restarting with stat
+2024-05-01 16:38:29,768:WARNING: * Debugger is active!
+2024-05-01 16:38:29,769:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:32,808:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:38:32,932:INFO: * Restarting with stat
+2024-05-01 16:38:33,602:WARNING: * Debugger is active!
+2024-05-01 16:38:33,603:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:48,748:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:38:48,880:INFO: * Restarting with stat
+2024-05-01 16:38:49,589:WARNING: * Debugger is active!
+2024-05-01 16:38:49,589:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:54,884:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:38:54,884:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:38:54,885:INFO: * Restarting with stat
+2024-05-01 16:38:55,577:WARNING: * Debugger is active!
+2024-05-01 16:38:55,578:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:38:59,108:INFO:127.0.0.1 - - [01/May/2024 16:38:59] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:39:04,432:INFO:Login: username=asd, password=asd
+2024-05-01 16:39:04,434:INFO:127.0.0.1 - - [01/May/2024 16:39:04] "[35m[1mPOST /after_login HTTP/1.1[0m" 500 -
+2024-05-01 16:39:04,447:INFO:127.0.0.1 - - [01/May/2024 16:39:04] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:39:04,452:INFO:127.0.0.1 - - [01/May/2024 16:39:04] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:39:04,463:INFO:127.0.0.1 - - [01/May/2024 16:39:04] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:39:04,473:INFO:127.0.0.1 - - [01/May/2024 16:39:04] "[36mGET /after_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:39:59,143:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:39:59,263:INFO: * Restarting with stat
+2024-05-01 16:39:59,987:WARNING: * Debugger is active!
+2024-05-01 16:39:59,988:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:40:05,166:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:40:05,167:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:40:05,167:INFO: * Restarting with stat
+2024-05-01 16:40:05,900:WARNING: * Debugger is active!
+2024-05-01 16:40:05,901:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:40:08,289:INFO:127.0.0.1 - - [01/May/2024 16:40:08] "[33mGET /a HTTP/1.1[0m" 404 -
+2024-05-01 16:40:10,102:INFO:127.0.0.1 - - [01/May/2024 16:40:10] "GET / HTTP/1.1" 200 -
+2024-05-01 16:40:11,253:INFO:127.0.0.1 - - [01/May/2024 16:40:11] "[35m[1mGET /review HTTP/1.1[0m" 500 -
+2024-05-01 16:40:11,270:INFO:127.0.0.1 - - [01/May/2024 16:40:11] "GET /review?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 16:40:11,274:INFO:127.0.0.1 - - [01/May/2024 16:40:11] "GET /review?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 16:40:11,287:INFO:127.0.0.1 - - [01/May/2024 16:40:11] "GET /review?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:40:11,295:INFO:127.0.0.1 - - [01/May/2024 16:40:11] "[36mGET /review?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:40:12,567:INFO:127.0.0.1 - - [01/May/2024 16:40:12] "[35m[1mGET /review HTTP/1.1[0m" 500 -
+2024-05-01 16:40:12,581:INFO:127.0.0.1 - - [01/May/2024 16:40:12] "[36mGET /review?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:40:12,583:INFO:127.0.0.1 - - [01/May/2024 16:40:12] "[36mGET /review?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:40:12,594:INFO:127.0.0.1 - - [01/May/2024 16:40:12] "[36mGET /review?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:40:12,602:INFO:127.0.0.1 - - [01/May/2024 16:40:12] "[36mGET /review?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:40:20,043:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:40:20,177:INFO: * Restarting with stat
+2024-05-01 16:40:20,909:WARNING: * Debugger is active!
+2024-05-01 16:40:20,909:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:40:22,434:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 16:40:22,449:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 16:40:22,453:INFO:127.0.0.1 - - [01/May/2024 16:40:22] "GET /review HTTP/1.1" 200 -
+2024-05-01 16:40:23,447:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 16:40:23,485:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 16:40:23,487:INFO:127.0.0.1 - - [01/May/2024 16:40:23] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 16:40:24,692:INFO:127.0.0.1 - - [01/May/2024 16:40:24] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 16:40:25,978:INFO:Review: review=asdf, result={'Rating': 'Good'}
+2024-05-01 16:40:25,980:INFO:127.0.0.1 - - [01/May/2024 16:40:25] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 16:40:28,037:INFO:127.0.0.1 - - [01/May/2024 16:40:28] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:40:30,238:INFO:Login: username=asdf, password=asdf
+2024-05-01 16:40:30,240:INFO:127.0.0.1 - - [01/May/2024 16:40:30] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:40:32,403:INFO:127.0.0.1 - - [01/May/2024 16:40:32] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:40:36,722:INFO:Login: username=master, password=password123
+2024-05-01 16:40:36,723:INFO:127.0.0.1 - - [01/May/2024 16:40:36] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:40:37,770:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 16:40:37,771:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2024-05-01 16:40:37,772:DEBUG:http://127.0.0.1:8081 "GET /statistics HTTP/1.1" 302 199
+2024-05-01 16:40:37,773:DEBUG:Resetting dropped connection: 127.0.0.1
+2024-05-01 16:40:37,787:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:40:37,787:DEBUG:http://127.0.0.1:8081 "GET /login HTTP/1.1" 200 589
+2024-05-01 16:40:37,792:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "[35m[1mGET /check_authentication?action=statistics HTTP/1.1[0m" 500 -
+2024-05-01 16:40:37,806:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "GET /check_authentication?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 16:40:37,806:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "GET /check_authentication?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 16:40:37,821:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "GET /check_authentication?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:40:37,834:INFO:127.0.0.1 - - [01/May/2024 16:40:37] "[36mGET /check_authentication?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:41:15,397:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:41:15,530:INFO: * Restarting with stat
+2024-05-01 16:41:16,241:WARNING: * Debugger is active!
+2024-05-01 16:41:16,241:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:41:18,911:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:41:18,911:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:41:18,912:INFO: * Restarting with stat
+2024-05-01 16:41:19,629:WARNING: * Debugger is active!
+2024-05-01 16:41:19,630:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:41:22,839:INFO:Login: username=master, password=password123
+2024-05-01 16:41:22,842:INFO:127.0.0.1 - - [01/May/2024 16:41:22] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:41:23,845:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8081
+2024-05-01 16:41:23,847:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2024-05-01 16:41:23,847:DEBUG:http://127.0.0.1:8081 "GET /statistics HTTP/1.1" 302 199
+2024-05-01 16:41:23,849:DEBUG:Resetting dropped connection: 127.0.0.1
+2024-05-01 16:41:23,858:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:41:23,859:DEBUG:http://127.0.0.1:8081 "GET /login HTTP/1.1" 200 589
+2024-05-01 16:41:23,862:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[35m[1mGET /check_authentication?action=statistics HTTP/1.1[0m" 500 -
+2024-05-01 16:41:23,874:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[36mGET /check_authentication?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:41:23,875:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[36mGET /check_authentication?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-01 16:41:23,882:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[36mGET /check_authentication?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:41:23,895:INFO:127.0.0.1 - - [01/May/2024 16:41:23] "[36mGET /check_authentication?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:42:24,308:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:42:24,308:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:42:24,308:INFO: * Restarting with stat
+2024-05-01 16:42:25,041:WARNING: * Debugger is active!
+2024-05-01 16:42:25,041:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:42:26,747:INFO:Login: username=master, password=password123
+2024-05-01 16:42:26,749:INFO:127.0.0.1 - - [01/May/2024 16:42:26] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:42:27,277:INFO:127.0.0.1 - - [01/May/2024 16:42:27] "[35m[1mGET /statistics?action=statistics HTTP/1.1[0m" 500 -
+2024-05-01 16:42:27,289:INFO:127.0.0.1 - - [01/May/2024 16:42:27] "GET /statistics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 16:42:27,291:INFO:127.0.0.1 - - [01/May/2024 16:42:27] "GET /statistics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 16:42:27,302:INFO:127.0.0.1 - - [01/May/2024 16:42:27] "GET /statistics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:42:27,311:INFO:127.0.0.1 - - [01/May/2024 16:42:27] "[36mGET /statistics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 16:42:35,142:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:42:35,268:INFO: * Restarting with stat
+2024-05-01 16:42:35,976:WARNING: * Debugger is active!
+2024-05-01 16:42:35,977:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:42:38,704:INFO:Login: username=master, password=password123
+2024-05-01 16:42:38,706:INFO:127.0.0.1 - - [01/May/2024 16:42:38] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:42:39,218:INFO:127.0.0.1 - - [01/May/2024 16:42:39] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 16:42:40,795:INFO:127.0.0.1 - - [01/May/2024 16:42:40] "GET / HTTP/1.1" 200 -
+2024-05-01 16:42:42,131:INFO:127.0.0.1 - - [01/May/2024 16:42:42] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:42:49,501:INFO:127.0.0.1 - - [01/May/2024 16:42:49] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:42:50,952:INFO:127.0.0.1 - - [01/May/2024 16:42:50] "GET / HTTP/1.1" 200 -
+2024-05-01 16:42:54,133:INFO:127.0.0.1 - - [01/May/2024 16:42:54] "GET / HTTP/1.1" 200 -
+2024-05-01 16:42:56,051:INFO:127.0.0.1 - - [01/May/2024 16:42:56] "GET / HTTP/1.1" 200 -
+2024-05-01 16:43:01,463:INFO:127.0.0.1 - - [01/May/2024 16:43:01] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:07,237:INFO:127.0.0.1 - - [01/May/2024 16:43:07] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:17,899:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:43:17,899:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:43:17,899:INFO: * Restarting with stat
+2024-05-01 16:43:18,606:WARNING: * Debugger is active!
+2024-05-01 16:43:18,606:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:43:20,052:INFO:127.0.0.1 - - [01/May/2024 16:43:20] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:21,766:INFO:127.0.0.1 - - [01/May/2024 16:43:21] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:30,095:INFO:127.0.0.1 - - [01/May/2024 16:43:30] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:54,934:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:43:55,058:INFO: * Restarting with stat
+2024-05-01 16:43:55,746:WARNING: * Debugger is active!
+2024-05-01 16:43:55,746:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:43:57,322:INFO:127.0.0.1 - - [01/May/2024 16:43:57] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:58,391:INFO:127.0.0.1 - - [01/May/2024 16:43:58] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:58,745:INFO:127.0.0.1 - - [01/May/2024 16:43:58] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,006:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,185:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,327:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,484:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,614:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,776:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:43:59,921:INFO:127.0.0.1 - - [01/May/2024 16:43:59] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,064:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,223:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,372:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,547:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,691:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,834:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:00,976:INFO:127.0.0.1 - - [01/May/2024 16:44:00] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:44:06,671:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 16:44:06,877:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 16:44:30,534:INFO:127.0.0.1 - - [01/May/2024 16:44:30] "GET /train_model HTTP/1.1" 200 -
+2024-05-01 16:44:37,114:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:44:37,245:INFO: * Restarting with stat
+2024-05-01 16:44:37,948:WARNING: * Debugger is active!
+2024-05-01 16:44:37,949:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:44:39,982:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:44:40,112:INFO: * Restarting with stat
+2024-05-01 16:44:40,872:WARNING: * Debugger is active!
+2024-05-01 16:44:40,873:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:45:03,074:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:45:03,220:INFO: * Restarting with stat
+2024-05-01 16:47:59,645:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:47:59,645:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:47:59,645:INFO: * Restarting with stat
+2024-05-01 16:48:00,353:WARNING: * Debugger is active!
+2024-05-01 16:48:00,354:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:48:04,525:INFO:127.0.0.1 - - [01/May/2024 16:48:04] "GET / HTTP/1.1" 200 -
+2024-05-01 16:48:05,738:INFO:127.0.0.1 - - [01/May/2024 16:48:05] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:48:11,018:INFO:127.0.0.1 - - [01/May/2024 16:48:11] "GET /statistics HTTP/1.1" 200 -
+2024-05-01 16:48:43,736:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:48:43,857:INFO: * Restarting with stat
+2024-05-01 16:49:04,629:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:49:04,630:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:49:04,630:INFO: * Restarting with stat
+2024-05-01 16:49:05,323:WARNING: * Debugger is active!
+2024-05-01 16:49:05,324:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:49:10,514:INFO:127.0.0.1 - - [01/May/2024 16:49:10] "GET / HTTP/1.1" 200 -
+2024-05-01 16:49:13,386:INFO:127.0.0.1 - - [01/May/2024 16:49:13] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2024-05-01 16:49:13,402:INFO:127.0.0.1 - - [01/May/2024 16:49:13] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:49:22,200:INFO:127.0.0.1 - - [01/May/2024 16:49:22] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:50:27,027:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:50:27,165:INFO: * Restarting with stat
+2024-05-01 16:50:27,852:WARNING: * Debugger is active!
+2024-05-01 16:50:27,853:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:50:38,960:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:50:39,105:INFO: * Restarting with stat
+2024-05-01 16:50:39,784:WARNING: * Debugger is active!
+2024-05-01 16:50:39,784:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:50:49,535:INFO:127.0.0.1 - - [01/May/2024 16:50:49] "[31m[1mGET /after_login HTTP/1.1[0m" 405 -
+2024-05-01 16:51:01,189:INFO:127.0.0.1 - - [01/May/2024 16:51:01] "[33mGET /login_success HTTP/1.1[0m" 404 -
+2024-05-01 16:51:15,810:INFO:127.0.0.1 - - [01/May/2024 16:51:15] "GET / HTTP/1.1" 200 -
+2024-05-01 16:51:17,013:INFO:127.0.0.1 - - [01/May/2024 16:51:17] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:51:22,735:INFO:Login: username=master, password=password123
+2024-05-01 16:51:22,736:INFO:127.0.0.1 - - [01/May/2024 16:51:22] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:51:23,845:INFO:127.0.0.1 - - [01/May/2024 16:51:23] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 16:51:25,021:INFO:127.0.0.1 - - [01/May/2024 16:51:25] "GET / HTTP/1.1" 200 -
+2024-05-01 16:51:27,061:INFO:127.0.0.1 - - [01/May/2024 16:51:27] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:51:32,085:INFO:Login: username=master, password=password123
+2024-05-01 16:51:32,086:INFO:127.0.0.1 - - [01/May/2024 16:51:32] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 16:51:33,321:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 16:51:33,475:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 16:51:56,680:INFO:127.0.0.1 - - [01/May/2024 16:51:56] "GET /train_model?action=train HTTP/1.1" 200 -
+2024-05-01 16:55:01,569:INFO:127.0.0.1 - - [01/May/2024 16:55:01] "GET / HTTP/1.1" 200 -
+2024-05-01 16:55:06,247:INFO:127.0.0.1 - - [01/May/2024 16:55:06] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2024-05-01 16:55:06,267:INFO:127.0.0.1 - - [01/May/2024 16:55:06] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:55:12,240:INFO:127.0.0.1 - - [01/May/2024 16:55:12] "[32mGET /train_model HTTP/1.1[0m" 302 -
+2024-05-01 16:55:12,260:INFO:127.0.0.1 - - [01/May/2024 16:55:12] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:56:15,946:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 16:56:16,074:INFO: * Restarting with stat
+2024-05-01 16:56:16,785:WARNING: * Debugger is active!
+2024-05-01 16:56:16,786:INFO: * Debugger PIN: 946-908-376
+2024-05-01 16:57:30,784:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 16:57:30,784:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 16:57:30,784:INFO: * Restarting with stat
+2024-05-01 16:57:31,686:WARNING: * Debugger is active!
+2024-05-01 16:57:31,687:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:05:41,159:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 17:05:41,160:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 17:05:41,160:INFO: * Restarting with stat
+2024-05-01 17:05:41,919:WARNING: * Debugger is active!
+2024-05-01 17:05:41,919:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:05:44,285:INFO:127.0.0.1 - - [01/May/2024 17:05:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-05-01 17:05:44,310:INFO:127.0.0.1 - - [01/May/2024 17:05:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 17:05:44,323:INFO:127.0.0.1 - - [01/May/2024 17:05:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 17:05:44,368:INFO:127.0.0.1 - - [01/May/2024 17:05:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 17:05:44,447:INFO:127.0.0.1 - - [01/May/2024 17:05:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-01 17:05:54,041:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 17:05:54,180:INFO: * Restarting with stat
+2024-05-01 17:05:54,940:WARNING: * Debugger is active!
+2024-05-01 17:05:54,940:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:05:57,906:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 17:05:57,906:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 17:05:57,906:INFO: * Restarting with stat
+2024-05-01 17:05:58,669:WARNING: * Debugger is active!
+2024-05-01 17:05:58,669:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:05:59,172:INFO:127.0.0.1 - - [01/May/2024 17:05:59] "GET / HTTP/1.1" 200 -
+2024-05-01 17:06:00,326:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:06:00,329:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 17:06:00,331:INFO:127.0.0.1 - - [01/May/2024 17:06:00] "GET /review HTTP/1.1" 200 -
+2024-05-01 17:06:01,473:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:06:01,482:DEBUG:http://127.0.0.1:8080 "GET /restaurant HTTP/1.1" 200 8280
+2024-05-01 17:06:01,484:INFO:127.0.0.1 - - [01/May/2024 17:06:01] "GET /restaurant HTTP/1.1" 200 -
+2024-05-01 17:06:02,474:INFO:127.0.0.1 - - [01/May/2024 17:06:02] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 17:06:04,595:INFO:Review: review=asdfasd, result={'Rating': 'Good'}
+2024-05-01 17:06:04,596:INFO:127.0.0.1 - - [01/May/2024 17:06:04] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 17:06:06,281:INFO:Review: review=asdfasd, result={'Rating': 'Good'}
+2024-05-01 17:06:06,282:INFO:127.0.0.1 - - [01/May/2024 17:06:06] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 17:06:06,967:INFO:127.0.0.1 - - [01/May/2024 17:06:06] "GET / HTTP/1.1" 200 -
+2024-05-01 17:06:08,264:INFO:127.0.0.1 - - [01/May/2024 17:06:08] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 17:06:10,065:INFO:Review: review=asdfasdf, result={'Rating': 'Good'}
+2024-05-01 17:06:10,065:INFO:127.0.0.1 - - [01/May/2024 17:06:10] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 17:06:10,696:INFO:127.0.0.1 - - [01/May/2024 17:06:10] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 17:06:12,096:INFO:Review: review=asdfasd, result={'Rating': 'Good'}
+2024-05-01 17:06:12,096:INFO:127.0.0.1 - - [01/May/2024 17:06:12] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 17:06:12,780:INFO:127.0.0.1 - - [01/May/2024 17:06:12] "GET / HTTP/1.1" 200 -
+2024-05-01 17:06:18,856:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:06:18,859:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 17:06:18,860:INFO:127.0.0.1 - - [01/May/2024 17:06:18] "GET /review HTTP/1.1" 200 -
+2024-05-01 17:06:25,504:INFO:127.0.0.1 - - [01/May/2024 17:06:25] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2024-05-01 17:06:25,520:INFO:127.0.0.1 - - [01/May/2024 17:06:25] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:06:33,645:INFO:127.0.0.1 - - [01/May/2024 17:06:33] "[32mGET /train_model HTTP/1.1[0m" 302 -
+2024-05-01 17:06:33,658:INFO:127.0.0.1 - - [01/May/2024 17:06:33] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:06:40,007:INFO:Login: username=master, password=password123
+2024-05-01 17:06:40,008:INFO:127.0.0.1 - - [01/May/2024 17:06:40] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 17:06:42,578:INFO:127.0.0.1 - - [01/May/2024 17:06:42] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 17:06:44,072:INFO:127.0.0.1 - - [01/May/2024 17:06:44] "GET / HTTP/1.1" 200 -
+2024-05-01 17:06:47,082:INFO:127.0.0.1 - - [01/May/2024 17:06:47] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:06:54,138:INFO:Login: username=master, password=password123
+2024-05-01 17:06:54,139:INFO:127.0.0.1 - - [01/May/2024 17:06:54] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 17:06:55,382:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:06:55,567:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 17:07:19,511:INFO:127.0.0.1 - - [01/May/2024 17:07:19] "GET /train_model?action=train HTTP/1.1" 200 -
+2024-05-01 17:09:15,138:INFO:Login: username=master, password=password123
+2024-05-01 17:09:15,139:INFO:127.0.0.1 - - [01/May/2024 17:09:15] "POST /after_login HTTP/1.1" 200 -
+2024-05-01 17:10:01,816:INFO: * Detected change in '/home/gibsont/csc5201/final_project/csc5201_final_project/review_predictions_service/app.py', reloading
+2024-05-01 17:10:01,972:INFO: * Restarting with stat
+2024-05-01 17:10:02,750:WARNING: * Debugger is active!
+2024-05-01 17:10:02,751:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:16:47,913:INFO:127.0.0.1 - - [01/May/2024 17:16:47] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 17:16:49,243:INFO:127.0.0.1 - - [01/May/2024 17:16:49] "GET / HTTP/1.1" 200 -
+2024-05-01 17:17:00,291:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 17:17:00,291:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 17:17:00,291:INFO: * Restarting with stat
+2024-05-01 17:17:01,075:WARNING: * Debugger is active!
+2024-05-01 17:17:01,076:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:17:01,418:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:17:01,421:DEBUG:http://127.0.0.1:8080 "GET /review HTTP/1.1" 200 41147
+2024-05-01 17:17:01,425:INFO:127.0.0.1 - - [01/May/2024 17:17:01] "GET /review HTTP/1.1" 200 -
+2024-05-01 17:17:02,933:INFO:127.0.0.1 - - [01/May/2024 17:17:02] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:17:07,110:INFO:127.0.0.1 - - [01/May/2024 17:17:07] "[33mPOST /after_login HTTP/1.1[0m" 404 -
+2024-05-01 17:17:33,148:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 17:17:33,148:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 17:17:33,148:INFO: * Restarting with stat
+2024-05-01 17:17:33,912:WARNING: * Debugger is active!
+2024-05-01 17:17:33,913:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:17:36,021:INFO:127.0.0.1 - - [01/May/2024 17:17:36] "[33mPOST /after_login HTTP/1.1[0m" 404 -
+2024-05-01 17:17:38,714:INFO:127.0.0.1 - - [01/May/2024 17:17:38] "[33mPOST /after_login HTTP/1.1[0m" 404 -
+2024-05-01 17:18:05,340:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.25.205.124:8081
+2024-05-01 17:18:05,341:INFO:[33mPress CTRL+C to quit[0m
+2024-05-01 17:18:05,341:INFO: * Restarting with stat
+2024-05-01 17:18:06,118:WARNING: * Debugger is active!
+2024-05-01 17:18:06,118:INFO: * Debugger PIN: 946-908-376
+2024-05-01 17:18:08,591:INFO:127.0.0.1 - - [01/May/2024 17:18:08] "GET / HTTP/1.1" 200 -
+2024-05-01 17:18:09,727:INFO:127.0.0.1 - - [01/May/2024 17:18:09] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:18:14,931:INFO:Login: username=master, password=password123
+2024-05-01 17:18:14,932:INFO:127.0.0.1 - - [01/May/2024 17:18:14] "POST /login_submitted HTTP/1.1" 200 -
+2024-05-01 17:18:16,108:INFO:127.0.0.1 - - [01/May/2024 17:18:16] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 17:18:21,165:INFO:Login: username=master, password=password123
+2024-05-01 17:18:21,166:INFO:127.0.0.1 - - [01/May/2024 17:18:21] "POST /login_submitted HTTP/1.1" 200 -
+2024-05-01 17:18:22,028:INFO:127.0.0.1 - - [01/May/2024 17:18:22] "GET /statistics?action=statistics HTTP/1.1" 200 -
+2024-05-01 17:18:22,992:INFO:127.0.0.1 - - [01/May/2024 17:18:22] "GET / HTTP/1.1" 200 -
+2024-05-01 17:20:43,932:INFO:127.0.0.1 - - [01/May/2024 17:20:43] "GET /login HTTP/1.1" 200 -
+2024-05-01 17:20:49,857:INFO:Login: username=master, password=password123
+2024-05-01 17:20:49,858:INFO:127.0.0.1 - - [01/May/2024 17:20:49] "POST /login_submitted HTTP/1.1" 200 -
+2024-05-01 17:20:50,809:DEBUG:Starting new HTTP connection (1): 127.0.0.1:8080
+2024-05-01 17:20:50,966:DEBUG:http://127.0.0.1:8080 "GET /training_data HTTP/1.1" 200 12372254
+2024-05-01 17:21:14,305:INFO:127.0.0.1 - - [01/May/2024 17:21:14] "GET /train_model?action=train HTTP/1.1" 200 -
+2024-05-01 17:21:18,866:INFO:127.0.0.1 - - [01/May/2024 17:21:18] "GET / HTTP/1.1" 200 -
+2024-05-01 17:21:27,718:INFO:127.0.0.1 - - [01/May/2024 17:21:27] "GET /predict_review HTTP/1.1" 200 -
+2024-05-01 17:21:30,278:INFO:Review: review=good, result={'Rating': 'Good'}
+2024-05-01 17:21:30,279:INFO:127.0.0.1 - - [01/May/2024 17:21:30] "POST /review_result HTTP/1.1" 200 -
+2024-05-01 17:21:31,329:INFO:127.0.0.1 - - [01/May/2024 17:21:31] "GET / HTTP/1.1" 200 -
