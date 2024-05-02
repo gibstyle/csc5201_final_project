@@ -5,5 +5,5 @@ class WebsiteUser(HttpUser):
 
     @task
     def index_page(self):
-        self.client.get("/")  # Adjust the URL as needed
+        self.client.get("http://147.182.218.30:8001")  # Adjust the URL as needed
 
