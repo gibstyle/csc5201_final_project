@@ -60,6 +60,10 @@ docker compose build
 ```
 docker compose up -d
 ```
+For scaling: 
+```
+docker compose up -d --scale review_predictions_service=3
+```
 
 10. Connect to the App by Accessing Droplet IP in Browser 
 ```
@@ -92,6 +96,7 @@ The python flask app services as a REST app that has a few capabilities:
 - Administrative login to:
   - View endpoint statistics for the application
   - Train a new machine learning model using data through a GET request from the Restaurant Review Service API
+    - The machine learning model is a random forest classifier using a TF-IDF vectorizer
 - Log file
   - A log file is created which stores inputted reviews and usernames/passwords
 
